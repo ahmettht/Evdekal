@@ -38,15 +38,6 @@ class Yonlendir extends StatelessWidget {
                   backgroundColor: MaterialStateProperty.all<Color>(Colors.red),
                 ),
               ),
-              ElevatedButton(
-                onPressed: () {
-                  Navigator.pushNamed(context, '/anasayfa');
-                },
-                child: Text('Anasayfaya dönmek için tıklayınız'),
-                style: ButtonStyle(
-                  backgroundColor: MaterialStateProperty.all<Color>(Colors.red),
-                ),
-              ),
             ],
           ),
         ),
