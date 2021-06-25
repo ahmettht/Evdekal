@@ -14,7 +14,7 @@ class hakkinda extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               Container(
-                child: Text('Bu uygulama Dr. Öğretim Üyesi Ahmet Cevahir ÇINAR tarafından yürütülen 3301456 kodlu Mobil Programlama dersli kapsamında 193301033 numaralı Ahmet Taha Turanlı tarafından 30 Nisan 2021 günü yapılmıştır.'),
+                child: Text('Bu uygulama Dr. Öğretim Üyesi Ahmet Cevahir ÇINAR tarafından yürütülen 3301456 kodlu Mobil Programlama dersli kapsamında 193301033 numaralı Ahmet Taha Turanlı tarafından 25 Haziran 2021 günü yapılmıştır.'),
               ),
               CircleAvatar(
                 radius: 100.0,

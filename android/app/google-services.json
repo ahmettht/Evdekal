@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "63959063886",
+    "project_id": "evdekal-10bcb",
+    "storage_bucket": "evdekal-10bcb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:63959063886:android:dbae014e8fcca7a5fb921f",
+        "android_client_info": {
+          "package_name": "com.example.evdekal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "63959063886-dl32n9bcfj79tsk8p6p4tabg0rp153p0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.evdekal",
+            "certificate_hash": "31466bdd887af1623875dfc53c37bc66603b3b67"
+          }
+        },
+        {
+          "client_id": "63959063886-duhuunl4siu9ss39m140k39pcbhulujg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBODryq8KMJu82-6AfN39VlbP-GuIBHdLI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "63959063886-duhuunl4siu9ss39m140k39pcbhulujg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

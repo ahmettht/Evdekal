@@ -14,7 +14,6 @@ class Yonlendir extends StatelessWidget {
   launchURL() {
     launch('https://enabiz.gov.tr/PcrTestSonuc/Index');
   }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(

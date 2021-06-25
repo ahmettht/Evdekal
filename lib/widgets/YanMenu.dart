@@ -13,11 +13,44 @@ class YanMenu extends StatelessWidget {
                 child: ListView(
               children: <Widget>[
                 ListTile(
+                  leading: Icon(Icons.info),
+                  title: Text('Covid19 Nedir'),
+                  onTap: () {
+                    Navigator.pop(context);
+                    Navigator.pushNamed(context, '/covid19');
+                  },
+                ),
+                Divider(
+                  height: 3.0,
+                ),
+                ListTile(
                   leading: Icon(Icons.help),
                   title: Text('Koronadan Nasıl Korunuruz'),
                   onTap: () {
                     Navigator.pop(context);
                     Navigator.pushNamed(context, '/Koronadannasilkorunuruz');
+                  },
+                ),
+                Divider(
+                  height: 3.0,
+                ),
+                ListTile(
+                  leading: Icon(Icons.analytics),
+                  title: Text('Korona Grafiği'),
+                  onTap: () {
+                    Navigator.pop(context);
+                    Navigator.pushNamed(context, '/grafik');
+                  },
+                ),
+                Divider(
+                  height: 3.0,
+                ),
+                ListTile(
+                  leading: Icon(Icons.analytics),
+                  title: Text('Evdekal Postları'),
+                  onTap: () {
+                    Navigator.pop(context);
+                    Navigator.pushNamed(context, '/posts');
                   },
                 ),
                 Divider(
@@ -142,6 +175,39 @@ class YanMenu extends StatelessWidget {
                     },
                   ),
                 ),
+                Divider(
+                  height: 3.0,
+                ),
+                Container(
+                  color: Colors.red,
+                  child: ListTile(
+                    leading: Icon(Icons.book, color: Colors.white),
+                    title: Text(
+                      'Covid-19 Sözlüğü',
+                      style: TextStyle(color: Colors.white),
+                    ),
+                    onTap: () {
+                      Navigator.pushNamed(context, '/covidsozlugu');
+                    },
+                  ),
+                ),
+                Divider(
+                  height: 3.0,
+                ),
+                Container(
+                  color: Colors.red,
+                  child: ListTile(
+                    leading: Icon(Icons.table_rows, color: Colors.white),
+                    title: Text(
+                      'Genel Koronavirüs Tablosu',
+                      style: TextStyle(color: Colors.white),
+                    ),
+                    onTap: () {
+                      Navigator.pushNamed(context, '/genelkoronatablo');
+                    },
+                  ),
+                ),
+
               ],
             ))
           ],
